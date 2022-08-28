@@ -123,7 +123,13 @@ In this part we have used the query object and checked the indexed database to f
 articles that match with the input query. We have implemented this in a search() method.
 
 ### Instruction on how to build the Lucene index
-To run Lucene run below command in LuceneSearch.jar folder
+
+### Go to lucene folder and run below command. It will create jar in target folder
+
+```bash mvn clean package
+```
+
+### To run Lucene run below command in target folder
 
 ```bash
 java -jar LuceneSearch.jar <data path> <path to create index> <path to store result> <query> 
@@ -271,13 +277,26 @@ punctuations, stop words and to tokenize words and the result of this process wa
 the index.
    
 ### Run Instructions
-#### Instruction to build Hadoop index
+
+### Run below command in Inverted Index Java folder. It will create jar in target folder
+
+```bash
+mvn clean package
+```
+#### Run below command to create inverted index using hadoop
+
 ```bash
 java -jar InvertedIndex.jar <Path to data> <path to store inverted index>
 ```
    
 Example, <br>
 > java -jar InvertedIndex.jar C:\IRProject\data C:\IRProject\data\output
+
+#### Run below commands to create jar for Rest Api in RestController folder. It will create jar in target folder
+
+```bash
+mvn clean package
+```
 
 #### Instruction to run rest api
 ```bsh
