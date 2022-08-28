@@ -124,10 +124,14 @@ articles that match with the input query. We have implemented this in a search()
 
 ### Instruction on how to build the Lucene index
 
-### Go to lucene folder and run below command. It will create jar in target folder
+### Instruction to create jar for Lucene index
 
-```bash mvn clean package
+```bash
+mvn clean package
 ```
+
+It will create jar in target folder
+
 
 ### To run Lucene run below command in target folder
 
@@ -278,11 +282,13 @@ the index.
    
 ### Run Instructions
 
-### Run below command in Inverted Index Java folder. It will create jar in target folder
+### Instruction to create jar for hadoop index
 
 ```bash
 mvn clean package
 ```
+
+
 #### Run below command to create inverted index using hadoop
 
 ```bash
@@ -292,7 +298,7 @@ java -jar InvertedIndex.jar <Path to data> <path to store inverted index>
 Example, <br>
 > java -jar InvertedIndex.jar C:\IRProject\data C:\IRProject\data\output
 
-#### Run below commands to create jar for Rest Api in RestController folder. It will create jar in target folder
+### Instruction to create jar for RestApi
 
 ```bash
 mvn clean package
