@@ -17,7 +17,7 @@ interruption (exceptions), failures, and resume crawler from the previous stage.
 
 ### Architecture
 
-![alt text](https://github.com/abhisheksharma1395/NewsArticleSearchEngine/blob/main/README_IMAGES/crawler.jpg "Crawler Design")
+![alt text](https://github.com/gauravgadewar36/NewsArticleSearchEngine/blob/main/README_IMAGES/crawler.jpg "Crawler Design")
 
 As shown in the above image, the user/actor is responsible to initiate the script/bat file with 
 required params as given below.
@@ -86,7 +86,7 @@ Apache Lucene™ is a high-performance, full-featured search engine library writ
 
 ### Lucene Implementation and Operations
 
-![alt text](https://github.com/abhisheksharma1395/NewsArticleSearchEngine/blob/main/README_IMAGES/lucene.jpg "Lucene Design")
+![alt text](https://github.com/gauravgadewar36/NewsArticleSearchEngine/blob/main/README_IMAGES/lucene.jpg "Lucene Design")
 
 #### Acquire Raw Content
 Our Crawler crawls data and stores it in a JSON file. Each JSON file contains 1000 articles. 
@@ -144,7 +144,7 @@ We have employed TF-IDF ranking mechanism to rank the pages and provide relevant
 
 ### Architecture
 
-![alt text](https://github.com/abhisheksharma1395/NewsArticleSearchEngine/blob/main/README_IMAGES/hadoop.jpg "Haddop Based Search Engine")
+![alt text](https://github.com/gauravgadewar36/NewsArticleSearchEngine/blob/main/README_IMAGES/hadoop.jpg "Haddop Based Search Engine")
 
 The above diagram represents different components and gears that all works together to provide 
 a working prototype for the Hadoop Based search engine. The existing search engine works 
